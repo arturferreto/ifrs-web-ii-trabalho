@@ -48,7 +48,7 @@ $_SESSION['opcao_contagem'] = $_SESSION[$_GET['opcao'] . '_contagem'];
 
 switch ($_GET['opcao']) {
     case 'ferias':
-        $_SESSION['ferias'] = ceil($salario * 0.33);
+        $_SESSION['ferias'] = ceil($salario * 0.3333);
         break;
     case 'ir':
         $_SESSION['ir'] = ir($salario);
